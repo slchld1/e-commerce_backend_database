@@ -16,7 +16,7 @@ Product.init(
       primaryKey: true,
       autoIncrement: true
     },
-    title: {
+    product_name: {
       type: DataTypes.STRING,
       allowNull: false
     },
@@ -27,8 +27,8 @@ Product.init(
         isDecimal: true
       }
     },
-    in_Stock: {
-      type: DataTypes.BOOLEAN,
+    stock: {
+      type: DataTypes.INTEGER,
       allowNull: false,
     },
     category_id: {
