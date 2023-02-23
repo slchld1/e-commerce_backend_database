@@ -8,6 +8,8 @@
 </p>
 
 ## Description 💾
+This application is a back-end application that demonstrates a basic database of an e-commerce website.
+It retrieves, adds, updates, and deletes database using GET, POST, PUT, and DELETE methods.
 
 
 ## User Story ✉️
@@ -32,7 +34,7 @@ THEN I am able to successfully create, update, and delete data in my database
 ~~~
 ## Table of Contents 🔍
 * [Installation](#installation-)
-* [VideoLink](#video-)
+* [VideoLink](#video)
 * [Usage](#usage-)
 * [Questions](#questions-)
 * [License](#license)
@@ -59,12 +61,20 @@ Then run `npm run seed` to import existing database.
 Finally, you can run `npm start` to run the application.
 
 ## Video
-
+https://vimeo.com/801791173
 
 ## Usage 💡
 ![demo_get](demo_get.gif)
+
+This demonstrates the GET method, retrieving the data that exists in the current database.
+
 ![demo_post](demo_post.gif)
+
+This is a POST method, where it adds new information into the database following the correct syntax.
+
 ![demo_del](demo_del.gif)
+
+This is the DELETE method, where it simply deletes unwanted database by id.
 
 ## License
 MIT License
